@@ -1,0 +1,27 @@
+{
+  "name": "wheelback",
+  "version": "1.0.0",
+  "description": "wheelback",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "tarsem",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-fileupload": "^1.4.3",
+    "html-pdf": "^3.0.1",
+    "html-pdf-node": "^1.0.8",
+    "html2pdf.js": "^0.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0",
+    "node-localstorage": "^3.0.5",
+    "nodemon": "^3.1.0"
+  }
+}
